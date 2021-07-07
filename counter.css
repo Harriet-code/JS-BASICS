@@ -1,0 +1,34 @@
+body {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  background: #cccccc;
+  font-family: "Courier New", Courier, monospace;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+#counter-board {
+  font-size: 30px;
+}
+
+.buttons-section button {
+  padding: 6px 12px;
+  cursor: pointer;
+  background-image: linear-gradient(
+    to right,
+    rgb(255, 0, 43),
+    rgb(47, 28, 224)
+  );
+  color: #fff;
+  outline: none;
+  border: none;
+  width: 100px;
+  border-radius: 5px;
+}
